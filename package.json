@@ -10,6 +10,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@ui5/tooling-webc": "^0.1.4"
+    "@ui5/tooling-webc": "^0.1.4",
+    "@ui5/webcomponents": "^1.8.0",
+    "@ui5/webcomponents-fiori": "^1.8.0"
   }
 }

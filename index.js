@@ -4,8 +4,8 @@ const fs = require("fs");
 // for fiori
 
 const apiFilesPaths = [
-	"../../ui5-webcomponents/packages/main/dist/api.json",
-	"../../ui5-webcomponents/packages/fiori/dist/api.json"
+	require.resolve("@ui5/webcomponents/dist/api.json"),
+	require.resolve("@ui5/webcomponents-fiori/dist/api.json")
 ];
 
 const apiFiles = apiFilesPaths.map(apiFilePath => `${fs.readFileSync(apiFilePath)}`);
